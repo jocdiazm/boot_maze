@@ -1,0 +1,7 @@
+[project]
+name = "project-maze-solver"
+version = "0.1.0"
+description = "Project maze solver boot.dev"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
