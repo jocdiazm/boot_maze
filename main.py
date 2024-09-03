@@ -1,11 +1,13 @@
-def main():
-    x = 10
-    y = 20
+from line import Line
+from point import Point
+from window import Window
 
-    print("Jose carlos")
-    print("Hello world")
-    print("Starting maze solver")
-    print(f"x = {x}, y = {y}")
+
+def main():
+    win = Window(800, 600)
+    line = Line(Point(50, 50), Point(400, 400))
+    win.draw_line(line, "black")
+    win.wait_for_close()
 
 
 if __name__ == "__main__":
